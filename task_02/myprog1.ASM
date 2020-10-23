@@ -18,11 +18,11 @@ section '.data' data readable writable
         vec_last dd ?
         vec_first dd ?
         vec_size     dd ?
-        vec_size_b   dd ?
+        vec_size_b   dd 0
         i            dd ?
         tmp          dd ?
-        vec          dd 100
-        vecB         dd 100
+        vec          rd 100
+        vecB         rd 100
 ;--------------------------------------------------------------------------
 section '.code' code readable executable
 start:
